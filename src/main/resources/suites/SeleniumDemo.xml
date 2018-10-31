@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name = "SeleniumDemo" verbose = "1" parallel = "false">
+    <test name = "demoTest">
+        <classes>
+            <class name = "module5.test.AuthorizationTest"></class>
+        </classes>
+    </test>
+</suite>
