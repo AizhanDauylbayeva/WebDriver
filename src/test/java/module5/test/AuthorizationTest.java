@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.util.List;
+
 public class AuthorizationTest extends BeforeSuite {
 
     @Test
@@ -83,12 +85,14 @@ public class AuthorizationTest extends BeforeSuite {
     public void testTheMailDisappearedFromDrafts(){
         driver.findElement(By.xpath("//a[@data-mnemo='drafts']")).click();
         driver.navigate().refresh();
-        try{
-            driver.findElement(By.xpath("//*[@class='b-datalist__item__subj' and contains(string(), 'test(module 5)')]"));
-            System.err.println("The mail still in ‘Drafts’ folder");
-        } catch (Exception e){
-            System.out.println("The mail successfully disappeared from ‘Drafts’ folder");
+
+        WebElement select = driver.findElement(By.xpath("//*[@class='b-datalist b-datalist_letters b-datalist_letters_to']//div[@class='b-datalist__item__subj']"));
+        List<WebElement> subjects = select.findElements(By.tagName("Subject"));
+        for (WebElement subject: subjects){
+            boolean subj = ("test(module 5)".equals(subject.getText()));
+            Assert.assertFalse(subj);
         }
+
     }
 
     @Test(dependsOnMethods = "testTheMailDisappearedFromDrafts")
