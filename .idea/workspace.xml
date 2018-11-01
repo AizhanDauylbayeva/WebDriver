@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aeaa2f38-d8b0-4394-9841-c32aa60bda56" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/suites/SeleniumDemo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/module5/test/AuthorizationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/module5/test/BeforeSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/module5.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AuthorizationTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/AuthorizationTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/module5/test/AuthorizationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/module5/test/AuthorizationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/module5/test/AuthorizationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/module5/test/AuthorizationTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,10 +32,16 @@
       <file leaf-file-name="AuthorizationTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/module5/test/AuthorizationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="54" column="103" selection-start-line="54" selection-start-column="103" selection-end-line="54" selection-end-column="103" />
+            <state relative-caret-position="-1054">
+              <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2104#2105#0" expanded="true" />
+                <element signature="e#2196#2197#0" expanded="true" />
+                <element signature="e#3082#3083#0" expanded="true" />
+                <element signature="e#3167#3168#0" expanded="true" />
+                <element signature="e#4131#4132#0" expanded="true" />
+                <element signature="e#4152#4153#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,9 +95,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="762" />
-    <option name="width" value="838" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="793" />
+    <option name="width" value="814" />
     <option name="height" value="867" />
   </component>
   <component name="ProjectView">
@@ -110,7 +106,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -174,6 +169,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -206,7 +202,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.D:/Aizhan/module_5/src/main/resources/suites/SeleniumDemo.xml">
+  <component name="RunManager" selected="TestNG.AuthorizationTest (1)">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="module5" />
@@ -359,8 +355,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.D:/Aizhan/module_5/src/main/resources/suites/SeleniumDemo.xml" />
         <item itemvalue="TestNG.AuthorizationTest (1)" />
+        <item itemvalue="TestNG.D:/Aizhan/module_5/src/main/resources/suites/SeleniumDemo.xml" />
         <item itemvalue="TestNG.D:/Aizhan/module_5/target/classes/SeleniumDemo.xml" />
         <item itemvalue="Application.Main" />
         <item itemvalue="TestNG.AuthorizationTest" />
@@ -381,61 +377,61 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="D__Aizhan_module_5_src_main_resources_suites_SeleniumDemo_xml - 2018.10.31 at 15h 31m 41s.xml">
-      <configuration name="D:/Aizhan/module_5/src/main/resources/suites/SeleniumDemo.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Aizhan_module_5_src_main_resources_suites_SeleniumDemo_xml - 2018.10.31 at 15h 36m 22s.xml">
-      <configuration name="D:/Aizhan/module_5/src/main/resources/suites/SeleniumDemo.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="AuthorizationTest_(1) - 2018.10.31 at 15h 43m 14s.xml">
+    <history-entry file="AuthorizationTest_(1) - 2018.11.01 at 15h 05m 00s.xml">
       <configuration name="AuthorizationTest (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AuthorizationTest_(1) - 2018.10.31 at 15h 45m 53s.xml">
+    <history-entry file="AuthorizationTest_(1) - 2018.11.01 at 15h 08m 41s.xml">
       <configuration name="AuthorizationTest (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__Aizhan_module_5_src_main_resources_suites_SeleniumDemo_xml - 2018.10.31 at 15h 46m 13s.xml">
-      <configuration name="D:/Aizhan/module_5/src/main/resources/suites/SeleniumDemo.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Aizhan_module_5_src_main_resources_suites_SeleniumDemo_xml - 2018.10.31 at 15h 48m 26s.xml">
-      <configuration name="D:/Aizhan/module_5/src/main/resources/suites/SeleniumDemo.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Aizhan_module_5_src_main_resources_suites_SeleniumDemo_xml - 2018.10.31 at 15h 51m 15s.xml">
-      <configuration name="D:/Aizhan/module_5/src/main/resources/suites/SeleniumDemo.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="AuthorizationTest_(1) - 2018.10.31 at 16h 33m 46s.xml">
+    <history-entry file="AuthorizationTest_(1) - 2018.11.01 at 15h 13m 30s.xml">
       <configuration name="AuthorizationTest (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__Aizhan_module_5_src_main_resources_suites_SeleniumDemo_xml - 2018.10.31 at 16h 35m 37s.xml">
-      <configuration name="D:/Aizhan/module_5/src/main/resources/suites/SeleniumDemo.xml" configurationId="TestNG" />
+    <history-entry file="AuthorizationTest_(1) - 2018.11.01 at 15h 16m 27s.xml">
+      <configuration name="AuthorizationTest (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__Aizhan_module_5_src_main_resources_suites_SeleniumDemo_xml - 2018.10.31 at 16h 38m 17s.xml">
-      <configuration name="D:/Aizhan/module_5/src/main/resources/suites/SeleniumDemo.xml" configurationId="TestNG" />
+    <history-entry file="AuthorizationTest_(1) - 2018.11.01 at 15h 19m 48s.xml">
+      <configuration name="AuthorizationTest (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AuthorizationTest_(1) - 2018.11.01 at 15h 31m 37s.xml">
+      <configuration name="AuthorizationTest (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AuthorizationTest_(1) - 2018.11.01 at 15h 35m 07s.xml">
+      <configuration name="AuthorizationTest (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AuthorizationTest_(1) - 2018.11.01 at 15h 44m 53s.xml">
+      <configuration name="AuthorizationTest (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AuthorizationTest_(1) - 2018.11.01 at 15h 54m 08s.xml">
+      <configuration name="AuthorizationTest (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AuthorizationTest_(1) - 2018.11.01 at 15h 59m 57s.xml">
+      <configuration name="AuthorizationTest (1)" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4974293" weight="0.3197832" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4974293" weight="0.3184282" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50064266" side_tool="true" weight="0.34552845" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.29310346" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4993573" visible="true" weight="0.23306233" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4993573" visible="true" weight="0.43495935" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3714653" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2596401" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.303155" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.302168" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -447,14 +443,14 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35116598" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36696658" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35116598" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -464,7 +460,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3251029" />
@@ -477,7 +473,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="27" />
+      <option name="time" value="30" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -502,10 +498,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/module5/test/AuthorizationTest.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="68" column="45" lean-forward="true" selection-start-line="68" selection-start-column="45" selection-end-line="68" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2104#2105#0" expanded="true" />
+            <element signature="e#2196#2197#0" expanded="true" />
+            <element signature="e#3082#3083#0" expanded="true" />
+            <element signature="e#3167#3168#0" expanded="true" />
+            <element signature="e#4131#4132#0" expanded="true" />
+            <element signature="e#4152#4153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/module5/test/BeforeSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/module5/test/AuthorizationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="103" selection-start-line="54" selection-start-column="103" selection-end-line="54" selection-end-column="103" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2104#2105#0" expanded="true" />
+            <element signature="e#2196#2197#0" expanded="true" />
+            <element signature="e#3082#3083#0" expanded="true" />
+            <element signature="e#3167#3168#0" expanded="true" />
+            <element signature="e#4131#4132#0" expanded="true" />
+            <element signature="e#4152#4153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/module5/test/BeforeSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/module5/test/AuthorizationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2104#2105#0" expanded="true" />
+            <element signature="e#2196#2197#0" expanded="true" />
+            <element signature="e#3082#3083#0" expanded="true" />
+            <element signature="e#3167#3168#0" expanded="true" />
+            <element signature="e#4131#4132#0" expanded="true" />
+            <element signature="e#4152#4153#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -527,6 +581,12 @@
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2104#2105#0" expanded="true" />
+            <element signature="e#2196#2197#0" expanded="true" />
+            <element signature="e#3082#3083#0" expanded="true" />
+            <element signature="e#3167#3168#0" expanded="true" />
+            <element signature="e#4131#4132#0" expanded="true" />
+            <element signature="e#4152#4153#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -555,6 +615,12 @@
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2104#2105#0" expanded="true" />
+            <element signature="e#2196#2197#0" expanded="true" />
+            <element signature="e#3082#3083#0" expanded="true" />
+            <element signature="e#3167#3168#0" expanded="true" />
+            <element signature="e#4131#4132#0" expanded="true" />
+            <element signature="e#4152#4153#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -590,6 +656,12 @@
           <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2104#2105#0" expanded="true" />
+            <element signature="e#2196#2197#0" expanded="true" />
+            <element signature="e#3082#3083#0" expanded="true" />
+            <element signature="e#3167#3168#0" expanded="true" />
+            <element signature="e#4131#4132#0" expanded="true" />
+            <element signature="e#4152#4153#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -601,6 +673,12 @@
           <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2104#2105#0" expanded="true" />
+            <element signature="e#2196#2197#0" expanded="true" />
+            <element signature="e#3082#3083#0" expanded="true" />
+            <element signature="e#3167#3168#0" expanded="true" />
+            <element signature="e#4131#4132#0" expanded="true" />
+            <element signature="e#4152#4153#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -668,12 +746,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta1/testng-7.0.0-beta1.jar!/org/testng/internal/Invoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="494" lean-forward="true" selection-start-line="494" selection-end-line="494" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/module5/test/AuthorizationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="54" column="103" selection-start-line="54" selection-start-column="103" selection-end-line="54" selection-end-column="103" />
+        <state relative-caret-position="-1054">
+          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2104#2105#0" expanded="true" />
+            <element signature="e#2196#2197#0" expanded="true" />
+            <element signature="e#3082#3083#0" expanded="true" />
+            <element signature="e#3167#3168#0" expanded="true" />
+            <element signature="e#4131#4132#0" expanded="true" />
+            <element signature="e#4152#4153#0" expanded="true" />
           </folding>
         </state>
       </provider>
