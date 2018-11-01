@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
-public class AuthorizationTest extends BeforeSuite {
+public class AuthorizationTest extends BaseSeleniumDemoTest {
 
     @Test
     public static void login() {
@@ -17,10 +17,7 @@ public class AuthorizationTest extends BeforeSuite {
         driver.findElement(By.id("mailbox:password")).sendKeys("password2018");
         driver.findElement(By.xpath("//*[@id='mailbox:domain']/option[4]")).click();
         driver.findElement(By.xpath("//*[@id='mailbox:submit']/input")).click();
-    }
 
-    @Test(dependsOnMethods = "login")
-    public void assertLogin() {
         try {
             Thread.sleep(5000);
         } catch (InterruptedException e) {
@@ -31,7 +28,7 @@ public class AuthorizationTest extends BeforeSuite {
     }
 
     @Test(dependsOnMethods = "login")
-    public void createNewMail() {
+    public void createAndSaveNewMail() {
         driver.findElement(By.xpath("//*[@id='b-toolbar__left']//span")).click();
         WebElement addressee = driver.findElement(By.xpath("//textarea[@data-original-name='To']"));
         addressee.sendKeys("ayzhan7797@mail.ru");
@@ -41,26 +38,15 @@ public class AuthorizationTest extends BeforeSuite {
         WebElement body = driver.findElement(By.xpath("html/body[@id='tinymce']"));
         body.sendKeys("Hello!");
         driver.switchTo().defaultContent();
-    }
 
-    @Test(dependsOnMethods = "createNewMail")
-    public void saveTheMail(){
         driver.findElement(By.xpath("//div[@data-name='saveDraft']")).click();
-    }
-
-    @Test(dependsOnMethods = "saveTheMail")
-    public void testTheMailIsSaved(){
         boolean isSaved = driver.findElement(By.xpath("//a[@class='toolbar__message_info__link']")).isDisplayed();
         Assert.assertTrue(isSaved);
     }
 
-    @Test(dependsOnMethods = "testTheMailIsSaved")
-    public void testDraftsFolder() {
-        driver.findElement(By.xpath("//div[@class='b-toolbar__message']/a")).click();
-    }
-
     @Test(dependsOnMethods = "testDraftsFolder")
     public void testTheDraftContent(){
+        driver.findElement(By.xpath("//div[@class='b-toolbar__message']/a")).click();
         WebElement addressee = driver.findElement(By.xpath("//div[@class='b-datalist__item__addr' and contains(string(), 'ayzhan7797@mail.ru')]"));
         boolean addr = addressee.isDisplayed();
         Assert.assertTrue(addr);

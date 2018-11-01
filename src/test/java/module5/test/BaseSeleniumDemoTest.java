@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.concurrent.TimeUnit;
 
-public class BeforeSuite {
+public class BaseSeleniumDemoTest {
 
     protected static WebDriver driver;
 
