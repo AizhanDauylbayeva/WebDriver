@@ -10,7 +10,7 @@ import java.util.List;
 public class AuthorizationTest extends BaseSeleniumDemoTest {
 
     @Test
-    public static void login() {
+    public static void assertLogin() {
         WebElement login = driver.findElement(By.id("mailbox:login"));
         login.click();
         login.sendKeys("new_account_2018");
@@ -27,8 +27,8 @@ public class AuthorizationTest extends BaseSeleniumDemoTest {
         Assert.assertTrue(status);
     }
 
-    @Test(dependsOnMethods = "login")
-    public void createAndSaveNewMail() {
+    @Test(dependsOnMethods = "assertLogin")
+    public void testSaveNewMail() {
         driver.findElement(By.xpath("//*[@id='b-toolbar__left']//span")).click();
         WebElement addressee = driver.findElement(By.xpath("//textarea[@data-original-name='To']"));
         addressee.sendKeys("ayzhan7797@mail.ru");
@@ -44,18 +44,24 @@ public class AuthorizationTest extends BaseSeleniumDemoTest {
         Assert.assertTrue(isSaved);
     }
 
-    @Test(dependsOnMethods = "testDraftsFolder")
-    public void testTheDraftContent(){
+    @Test(dependsOnMethods = "testSaveNewMail")
+    public void testAddresse(){
         driver.findElement(By.xpath("//div[@class='b-toolbar__message']/a")).click();
         WebElement addressee = driver.findElement(By.xpath("//div[@class='b-datalist__item__addr' and contains(string(), 'ayzhan7797@mail.ru')]"));
         boolean addr = addressee.isDisplayed();
         Assert.assertTrue(addr);
         addressee.click();
+    }
 
+    @Test(dependsOnMethods = "testSaveNewMail")
+    public void testSubject() {
         WebElement subject = driver.findElement(By.xpath("//a[@data-subject = 'test(module 5)']")); //
         boolean subj = subject.isEnabled();
         Assert.assertTrue(subj);
+    }
 
+    @Test(dependsOnMethods = "testSaveNewMail")
+    public void testTheDraftContent(){
         driver.switchTo().frame(0);
         boolean body = driver.findElement(By.xpath("//*[@class = 'js-helper js-readmsg-msg' and contains(string(), 'Hello!')]")).isDisplayed();
         Assert.assertTrue(body);
@@ -63,12 +69,8 @@ public class AuthorizationTest extends BaseSeleniumDemoTest {
     }
 
     @Test(dependsOnMethods = "testTheDraftContent")
-    public void sendTheMail(){
+    public void sendAndTestTheMail(){
         driver.findElement(By.xpath("//div[@data-name='send']/span")).click();
-    }
-
-    @Test(dependsOnMethods = "sendTheMail")
-    public void testTheMailDisappearedFromDrafts(){
         driver.findElement(By.xpath("//a[@data-mnemo='drafts']")).click();
         driver.navigate().refresh();
 
@@ -81,7 +83,7 @@ public class AuthorizationTest extends BaseSeleniumDemoTest {
 
     }
 
-    @Test(dependsOnMethods = "testTheMailDisappearedFromDrafts")
+    @Test(dependsOnMethods = "sendAndTestTheMail")
     public void testTheMailIsInSentFolder(){
         driver.findElement(By.xpath("//a[@href='/messages/sent/']")).click();
         boolean subj = driver.findElement(By.xpath("//*[@class='b-datalist__item__subj' and contains(string(), 'test(module 5)')]")).isDisplayed();
